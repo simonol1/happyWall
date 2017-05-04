@@ -3,15 +3,17 @@ var posts= require ('./data.json')
 var router = express.Router()
 
 router.get('/', (req, res) => {
-  res.render('Happy Wall')
+  res.send('Happy Wall')
 })
 
-//post
+
 router.get('/', (req, res) => {
-  res.render ('')
+  res.render('post', posts)
 })
 
-//form
+router.get('/', (req, res) => {
+  res.render('form', posts)
+})
 
 
 
