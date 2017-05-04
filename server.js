@@ -5,6 +5,8 @@ var routes= require ('./routes')
 
 var app =express()
 
+app.use(express.static('./public'))
+
 app.use('/', routes)
 
 module.exports = app
