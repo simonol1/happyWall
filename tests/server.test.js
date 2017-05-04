@@ -30,7 +30,7 @@ test('Check if the user can add their own image',(t)=>{
   .get('/')
   .end((err,res) => {
   var $ = cheerio.load(res.text)
-    t.equal(res.test,,'The user can add their own image')
+    t.equal(res.test,'','The user can add their own image')
     t.end()
   })
 })
@@ -40,7 +40,7 @@ test('Check if the user can add their own positive affirmation',(t)=>{
   .get('/')
   .end((err,res) => {
   var $ = cheerio.load(res.text)
-    t.equal(res.test,,'The user can add their own positive affirmation')
+    t.equal(res.test,'','The user can add their own positive affirmation')
     t.end()
   })
 })
