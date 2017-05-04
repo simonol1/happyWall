@@ -9,7 +9,7 @@ test('Check if the title is diplaying correctly',(t)=>{
   .get('/')
   .end((err,res) => {
   var $ = cheerio.load(res.text)
-    t.equal(res.test, ,'The title is displaying correctly')
+    t.equal($(.handwritten).text(),'Happy Wall','The title is displaying correctly')
     t.end()
   })
 })
@@ -27,7 +27,8 @@ test('Check if the img and positive affirmation match',(t)=>{
 
 test('Check if the user can add their own image',(t)=>{
   request(app)
-  .get('/')
+  .post('URLpath')
+  .send({send path this})
   .end((err,res) => {
   var $ = cheerio.load(res.text)
     t.equal(res.test,'','The user can add their own image')
@@ -37,7 +38,8 @@ test('Check if the user can add their own image',(t)=>{
 
 test('Check if the user can add their own positive affirmation',(t)=>{
   request(app)
-  .get('/')
+  .post('URLpath')
+  .send({send path this})
   .end((err,res) => {
   var $ = cheerio.load(res.text)
     t.equal(res.test,'','The user can add their own positive affirmation')
