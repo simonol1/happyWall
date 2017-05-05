@@ -14,6 +14,7 @@ body {
 
 hr {
   border: 1px solid black;
+  padding left: 10px
 }
 
 .container-full{
@@ -36,6 +37,7 @@ hr {
 .add {
   font-family: 'Oswald', sans-serif;
   background-color: #3399ff;
+  padding: auto;
 }
 
 .handwritten {
@@ -75,4 +77,5 @@ p.about{
   height: 400px;
   width: 400px;
   margin: 40px;
+  box-shadow: 6px 6px 6px;
 }
