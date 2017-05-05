@@ -38,6 +38,10 @@ body {
   font-family: 'Indie Flower', cursive;
   font-size: 45px;
 }
+.bighandwritten {
+  font-family: 'Indie Flower', cursive;
+  font-size: 75px;
+}
 
 p.about{
   padding: 30px;
