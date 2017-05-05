@@ -2,8 +2,11 @@
 <div class="col-lg-6">
   <div class="happywall">
     <ul>
+      <p class="bighandwritten">Happy Wall Posts</p>
       {{#each posts}}
-        <p>{{message}}</p>
+        <img class="resize" src="{{image}}">
+        <p class="handwritten">{{message}}</p>
+        <hr>
       {{/each}}
     </ul>
   </div>
