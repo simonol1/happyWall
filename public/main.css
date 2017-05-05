@@ -63,3 +63,8 @@ p.about{
   margin: 0px;
   text-align: center;
 }
+.resize {
+  height: 400px;
+  width: 400px;
+  margin: 40px;
+}
