@@ -1,7 +1,11 @@
-<h1>{{title}}</h1>
-<ul>
-  {{#each message}}
-    <li>{{data.message}}</li>
-  {{/each}}
-</ul>
-{{> form}}
+
+<div class="col-lg-6">
+  <div class="happywall">
+    <ul>
+      {{#each posts}}
+        <p>{{message}}</p>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+  {{>form}}
