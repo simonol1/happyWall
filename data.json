@@ -1,20 +1,10 @@
-
 [{
-    "id": 1,
-    "name": "Anon",
-    "message": "You did it!!",
-    "image": "http://images.entertainment.ie/images_content/rectangle/620x372/homer-header.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Anon",
-    "message": "Pup says don't give up!",
-    "image": "http://wallpaper-gallery.net/images/happy-picture/happy-picture-10.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Anon",
-    "message": "You feel happy!",
-    "image": "https://www.motivateyourself.co.uk/how-to-be-happy/index_files/happy.jpg"
-  }
-]
+  "message": "You did it!!",
+  "image": "http://images.entertainment.ie/images_content/rectangle/620x372/homer-header.jpg"
+}, {
+  "message": "Pup says don't give up!",
+  "image": "http://wallpaper-gallery.net/images/happy-picture/happy-picture-10.jpg"
+}, {
+  "message": "You feel happy!",
+  "image": "https://www.motivateyourself.co.uk/how-to-be-happy/index_files/happy.jpg"
+}]
