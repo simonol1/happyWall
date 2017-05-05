@@ -9,7 +9,6 @@ var viewData = {
   posts: posts
 }
 
-
 router.get('/', (req, res) => {
   res.render('post', viewData)
 })
@@ -22,5 +21,6 @@ router.post('/addMessage', (req, res) => {
     res.redirect('/')
   })
 })
+
 
 module.exports = router
