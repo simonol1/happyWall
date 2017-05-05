@@ -1,19 +1,18 @@
 var express = require('express')
-var posts= require ('./data.json')
 var router = express.Router()
 
-router.get('/', (req, res) => {
-  res.send('Happy Wall')
-})
+var fs = require('fs')
+
+var posts= require ('./data.json')
 
 
 router.get('/', (req, res) => {
   res.render('post', posts)
 })
 
-router.get('/', (req, res) => {
-  res.render('form', posts)
-})
+// router.get('/', (req, res) => {
+//   res.render('form', posts)
+// })
 
 
 
