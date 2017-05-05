@@ -12,6 +12,11 @@ body {
   margin: 0px;
 }
 
+hr {
+  border: 1px solid black;
+  padding left: 10px
+}
+
 .container-full{
   width: 100%;
   height: 100%;
@@ -32,11 +37,16 @@ body {
 .add {
   font-family: 'Oswald', sans-serif;
   background-color: #3399ff;
+  padding: 40% 30% 40% 30%;
 }
 
 .handwritten {
   font-family: 'Indie Flower', cursive;
   font-size: 45px;
+}
+.bighandwritten {
+  font-family: 'Indie Flower', cursive;
+  font-size: 75px;
 }
 
 p.about{
@@ -67,4 +77,5 @@ p.about{
   height: 400px;
   width: 400px;
   margin: 40px;
+  box-shadow: 6px 6px 6px;
 }
