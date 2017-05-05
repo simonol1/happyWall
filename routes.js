@@ -9,7 +9,6 @@ var viewData = {
   posts: posts
 }
 
-
 router.get('/', (req, res) => {
   res.render('post', viewData)
 })
@@ -17,7 +16,5 @@ router.get('/', (req, res) => {
 // router.get('/', (req, res) => {
 //   res.render('form', posts)
 // })
-
-
 
 module.exports = router
