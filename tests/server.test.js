@@ -11,6 +11,7 @@ test('Check if the title is diplaying correctly',(t)=>{
   var $ = cheerio.load(res.text)
     t.equal($(.handwritten).text(),'Happy Wall','The title is displaying correctly')
     t.end()
+    console.log(test);
   })
 })
 
