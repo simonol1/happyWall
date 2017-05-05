@@ -7,11 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-
-  "debug": "nodemon --ignore data.json --inspect index.js",
-  "test": "tape tests/**/*.test.js | tap-diff",
-  "start": "node --ignore data.json index.js"
-
+    "debug": "nodemon --ignore data.json --inspect index.js",
+    "test": "tape tests/**/*.test.js | tap-diff",
+    "start": "node --ignore data.json index.js"
   },
   "repository": {
     "type": "git",
@@ -30,8 +28,8 @@
     "express-handlebars": "^3.0.0"
   },
   "devDependencies": {
-
+    "cheerio": "^0.22.0",
+    "nodemon": "^1.11.0",
     "supertest": "^3.0.0"
-
   }
 }
