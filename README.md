@@ -17,4 +17,5 @@ Team: Simon, Zac, Annalise and Alisa
 - git clone https://github.com/simonol1/happyWall.git
 - Navigate to happyWall
 - npm i
-- 
+- npm start
+- Open your browser and go to localhost:3000
