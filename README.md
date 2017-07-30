@@ -14,4 +14,7 @@ Team: Simon, Zac, Annalise and Alisa
 - Add your own vihttps://github.com/simonol1deos
 
 ### Instructions for use:
-- git clone 
+- git clone https://github.com/simonol1/happyWall.git
+- Navigate to happyWall
+- npm i
+- 
